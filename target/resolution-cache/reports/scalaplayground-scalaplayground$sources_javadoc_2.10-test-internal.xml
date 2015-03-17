@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="scalaplayground"
+		module="scalaplayground$sources_javadoc_2.10"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150317103629"/>
+	<dependencies>
+		<module organisation="org.reactivemongo" name="reactivemongo_2.10">
+			<revision name="0.10.5.0.akka23" status="release" pubdate="20141009115222" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3579" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo_2.10\ivy-0.10.5.0.akka23.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.10/0.10.5.0.akka23/reactivemongo_2.10-0.10.5.0.akka23.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="0.10.5.0.akka23" rev-constraint-default="0.10.5.0.akka23" rev-constraint-dynamic="0.10.5.0.akka23" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reactivemongo_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1682281" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo_2.10\docs\reactivemongo_2.10-0.10.5.0.akka23-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.10/0.10.5.0.akka23/reactivemongo_2.10-0.10.5.0.akka23-javadoc.jar"/>
+					</artifact>
+					<artifact name="reactivemongo_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69441" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo_2.10\srcs\reactivemongo_2.10-0.10.5.0.akka23-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.10/0.10.5.0.akka23/reactivemongo_2.10-0.10.5.0.akka23-sources.jar"/>
+					</artifact>
+					<artifact name="reactivemongo_2.10" type="jar" ext="jar" status="no" details="" size="1378964" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo_2.10\jars\reactivemongo_2.10-0.10.5.0.akka23.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.10/0.10.5.0.akka23/reactivemongo_2.10-0.10.5.0.akka23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.0.2" status="release" pubdate="20140817013103" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<metadata-artifact status="no" details="" size="24409" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0.2/log4j-core-2.0.2.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="654462" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-core\srcs\log4j-core-2.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0.2/log4j-core-2.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="783469" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0.2/log4j-core-2.0.2.jar"/>
+					</artifact>
+					<artifact name="log4j-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2615818" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-core\docs\log4j-core-2.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0.2/log4j-core-2.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.0.2" status="release" pubdate="20140817012403" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="25913" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="122755" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.jar"/>
+					</artifact>
+					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="115933" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-api\srcs\log4j-api-2.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="log4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="452336" time="0" location="C:\Users\tsmith\.ivy2\cache\org.apache.logging.log4j\log4j-api\docs\log4j-api-2.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.10">
+			<revision name="2.3.5" status="release" pubdate="20150316015100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="3206" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\ivy-2.3.5.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.3.5/play-iteratees_2.10-2.3.5.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.5" rev-constraint-default="2.3.5" rev-constraint-dynamic="2.3.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.10" type="jar" ext="jar" status="no" details="" size="755869" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.5.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.3.5/play-iteratees_2.10-2.3.5.jar"/>
+					</artifact>
+					<artifact name="play-iteratees_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32929" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\srcs\play-iteratees_2.10-2.3.5-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.3.5/play-iteratees_2.10-2.3.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.10">
+			<revision name="0.7" status="release" pubdate="20121221223826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2563" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-stm\scala-stm_2.10\ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-stm_2.10" type="jar" ext="jar" status="no" details="" size="650514" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116136" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-stm\scala-stm_2.10\srcs\scala-stm_2.10-0.7-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="937426" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-stm\scala-stm_2.10\docs\scala-stm_2.10-0.7-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.3.6" status="release" pubdate="20140905023344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2687" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.6/akka-actor_2.10-2.3.6.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.6" rev-constraint-default="2.3.6" rev-constraint-dynamic="2.3.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2940138" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\docs\akka-actor_2.10-2.3.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.6/akka-actor_2.10-2.3.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2583959" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.6/akka-actor_2.10-2.3.6.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="330314" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\srcs\akka-actor_2.10-2.3.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.6/akka-actor_2.10-2.3.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502105416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2768" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe\config\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="147508" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe\config\docs\config-1.2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="219554" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe\config\jars\config-1.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="132611" time="0" location="C:\Users\tsmith\.ivy2\cache\com.typesafe\config\srcs\config-1.2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.6.5.Final" status="release" pubdate="20130409042612" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6485" time="0" location="C:\Users\tsmith\.ivy2\cache\io.netty\netty\ivy-3.6.5.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="3.6.5.Final" rev-constraint-default="3.6.5.Final" rev-constraint-dynamic="3.6.5.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="10815806" time="0" location="C:\Users\tsmith\.ivy2\cache\io.netty\netty\docs\netty-3.6.5.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1205075" time="0" location="C:\Users\tsmith\.ivy2\cache\io.netty\netty\jars\netty-3.6.5.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1064607" time="0" location="C:\Users\tsmith\.ivy2\cache\io.netty\netty\srcs\netty-3.6.5.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivemongo" name="reactivemongo-bson-macros_2.10">
+			<revision name="0.10.5.0.akka23" status="release" pubdate="20141009115146" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3027" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson-macros_2.10\ivy-0.10.5.0.akka23.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.10/0.10.5.0.akka23/reactivemongo-bson-macros_2.10-0.10.5.0.akka23.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="0.10.5.0.akka23" rev-constraint-default="0.10.5.0.akka23" rev-constraint-dynamic="0.10.5.0.akka23" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reactivemongo-bson-macros_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="401244" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson-macros_2.10\docs\reactivemongo-bson-macros_2.10-0.10.5.0.akka23-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.10/0.10.5.0.akka23/reactivemongo-bson-macros_2.10-0.10.5.0.akka23-javadoc.jar"/>
+					</artifact>
+					<artifact name="reactivemongo-bson-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6726" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson-macros_2.10\srcs\reactivemongo-bson-macros_2.10-0.10.5.0.akka23-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.10/0.10.5.0.akka23/reactivemongo-bson-macros_2.10-0.10.5.0.akka23-sources.jar"/>
+					</artifact>
+					<artifact name="reactivemongo-bson-macros_2.10" type="jar" ext="jar" status="no" details="" size="138484" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson-macros_2.10\jars\reactivemongo-bson-macros_2.10-0.10.5.0.akka23.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.10/0.10.5.0.akka23/reactivemongo-bson-macros_2.10-0.10.5.0.akka23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivemongo" name="reactivemongo-bson_2.10">
+			<revision name="0.10.5.0.akka23" status="release" pubdate="20141009115224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson_2.10\ivy-0.10.5.0.akka23.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.10/0.10.5.0.akka23/reactivemongo-bson_2.10-0.10.5.0.akka23.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="0.10.5.0.akka23" rev-constraint-default="0.10.5.0.akka23" rev-constraint-dynamic="0.10.5.0.akka23" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reactivemongo-bson_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="919247" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson_2.10\docs\reactivemongo-bson_2.10-0.10.5.0.akka23-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.10/0.10.5.0.akka23/reactivemongo-bson_2.10-0.10.5.0.akka23-javadoc.jar"/>
+					</artifact>
+					<artifact name="reactivemongo-bson_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17197" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson_2.10\srcs\reactivemongo-bson_2.10-0.10.5.0.akka23-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.10/0.10.5.0.akka23/reactivemongo-bson_2.10-0.10.5.0.akka23-sources.jar"/>
+					</artifact>
+					<artifact name="reactivemongo-bson_2.10" type="jar" ext="jar" status="no" details="" size="307715" time="0" location="C:\Users\tsmith\.ivy2\cache\org.reactivemongo\reactivemongo-bson_2.10\jars\reactivemongo-bson_2.10-0.10.5.0.akka23.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.10/0.10.5.0.akka23/reactivemongo-bson_2.10-0.10.5.0.akka23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.10.4" status="release" pubdate="20140318174738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2843" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2058278" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-compiler\srcs\scala-compiler-2.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar"/>
+					</artifact>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="14445780" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar"/>
+					</artifact>
+					<artifact name="scala-compiler" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="12449100" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-compiler\docs\scala-compiler-2.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140318174707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2680" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33913490" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-reflect\docs\scala-reflect-2.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="434883" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.5" status="release" pubdate="20150226205430" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2701" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
+				<caller organisation="scalaplayground" name="scalaplayground$sources_javadoc_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7130772" time="0" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1064274" time="1526" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.10.5-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="33896982" time="23790" location="C:\Users\tsmith\.ivy2\cache\org.scala-lang\scala-library\docs\scala-library-2.10.5-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
